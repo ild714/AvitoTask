@@ -1,3 +1,12 @@
-/Users/ildar/Desktop/Internship/Internship/ViewController.swift
-/Users/ildar/Desktop/Internship/Internship/AppDelegate.swift
-/Users/ildar/Desktop/Internship/Internship/SceneDelegate.swift
+/Users/ildar/Desktop/Internship/Internship/Modules/Main/AvitoRouter.swift
+/Users/ildar/Desktop/Internship/Internship/Modules/Main/CustomCollectionViewCell/CustomCollectionViewCell.swift
+/Users/ildar/Desktop/Internship/Internship/Services/ServerService.swift
+/Users/ildar/Desktop/Internship/Internship/Modules/Main/AvitoProtocols.swift
+/Users/ildar/Desktop/Internship/Internship/Entities/AvitoData.swift
+/Users/ildar/Desktop/Internship/Internship/ApplicationLifeCycle/AppDelegate.swift
+/Users/ildar/Desktop/Internship/Internship/Modules/Main/AvitoInteractor.swift
+/Users/ildar/Desktop/Internship/Internship/Modules/Main/AvitoConfigurator.swift
+/Users/ildar/Desktop/Internship/Internship/Modules/Main/AvitoViewController.swift
+/Users/ildar/Desktop/Internship/Internship/Modules/Main/AvitoPresenter.swift
+/Users/ildar/Desktop/Internship/Internship/Extension/ColorExtension.swift
+/Users/ildar/Desktop/Internship/Internship/ApplicationLifeCycle/SceneDelegate.swift

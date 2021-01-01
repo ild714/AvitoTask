@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		74705F7E2598E01300C4CC93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705F7D2598E01300C4CC93 /* AppDelegate.swift */; };
 		74705F802598E01300C4CC93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705F7F2598E01300C4CC93 /* SceneDelegate.swift */; };
-		74705F822598E01300C4CC93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705F812598E01300C4CC93 /* ViewController.swift */; };
-		74705F852598E01300C4CC93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74705F832598E01300C4CC93 /* Main.storyboard */; };
 		74705F872598E01500C4CC93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74705F862598E01500C4CC93 /* Assets.xcassets */; };
 		74705F8A2598E01500C4CC93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74705F882598E01500C4CC93 /* LaunchScreen.storyboard */; };
+		74705F9D259A480D00C4CC93 /* AvitoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705F9C259A480D00C4CC93 /* AvitoViewController.swift */; };
+		74705FA0259A484100C4CC93 /* AvitoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705F9F259A484100C4CC93 /* AvitoPresenter.swift */; };
+		74705FA3259A485600C4CC93 /* AvitoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705FA2259A485600C4CC93 /* AvitoInteractor.swift */; };
+		74705FA6259A487100C4CC93 /* AvitoConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705FA5259A487100C4CC93 /* AvitoConfigurator.swift */; };
+		74705FA9259A488400C4CC93 /* AvitoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705FA8259A488400C4CC93 /* AvitoRouter.swift */; };
+		74705FAC259A489400C4CC93 /* AvitoProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705FAB259A489400C4CC93 /* AvitoProtocols.swift */; };
+		74705FB4259CA4C600C4CC93 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705FB3259CA4C600C4CC93 /* CustomCollectionViewCell.swift */; };
+		74705FB8259CA72C00C4CC93 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705FB7259CA72C00C4CC93 /* ColorExtension.swift */; };
+		74705FBD259D23FB00C4CC93 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705FBC259D23FB00C4CC93 /* ServerService.swift */; };
+		74705FC2259D2FBB00C4CC93 /* result.json in Resources */ = {isa = PBXBuildFile; fileRef = 74705FC1259D2FBB00C4CC93 /* result.json */; };
+		74705FC6259D302500C4CC93 /* AvitoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74705FC5259D302500C4CC93 /* AvitoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74705F7A2598E01300C4CC93 /* Internship.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Internship.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74705F7D2598E01300C4CC93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74705F7F2598E01300C4CC93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74705F812598E01300C4CC93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		74705F842598E01300C4CC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74705F862598E01500C4CC93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74705F892598E01500C4CC93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74705F8B2598E01500C4CC93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74705F9C259A480D00C4CC93 /* AvitoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoViewController.swift; sourceTree = "<group>"; };
+		74705F9F259A484100C4CC93 /* AvitoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoPresenter.swift; sourceTree = "<group>"; };
+		74705FA2259A485600C4CC93 /* AvitoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoInteractor.swift; sourceTree = "<group>"; };
+		74705FA5259A487100C4CC93 /* AvitoConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoConfigurator.swift; sourceTree = "<group>"; };
+		74705FA8259A488400C4CC93 /* AvitoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoRouter.swift; sourceTree = "<group>"; };
+		74705FAB259A489400C4CC93 /* AvitoProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoProtocols.swift; sourceTree = "<group>"; };
+		74705FB3259CA4C600C4CC93 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		74705FB7259CA72C00C4CC93 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		74705FBC259D23FB00C4CC93 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
+		74705FC1259D2FBB00C4CC93 /* result.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = result.json; path = "../New Group/result.json"; sourceTree = "<group>"; };
+		74705FC5259D302500C4CC93 /* AvitoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,104 @@
 		74705F7C2598E01300C4CC93 /* Internship */ = {
 			isa = PBXGroup;
 			children = (
-				74705F7D2598E01300C4CC93 /* AppDelegate.swift */,
-				74705F7F2598E01300C4CC93 /* SceneDelegate.swift */,
-				74705F812598E01300C4CC93 /* ViewController.swift */,
-				74705F832598E01300C4CC93 /* Main.storyboard */,
-				74705F862598E01500C4CC93 /* Assets.xcassets */,
-				74705F882598E01500C4CC93 /* LaunchScreen.storyboard */,
-				74705F8B2598E01500C4CC93 /* Info.plist */,
+				74705FBB259D23DE00C4CC93 /* Services */,
+				74705F99259A475600C4CC93 /* Modules */,
+				74705FD6259F3D0B00C4CC93 /* Data */,
+				74705FBF259D2A3600C4CC93 /* Entities */,
+				74705FD8259F3D7100C4CC93 /* Configuration */,
+				74705FD7259F3D1D00C4CC93 /* Resources */,
+				74705FD0259F3AD200C4CC93 /* ApplicationLifeCycle */,
+				74705FB6259CA71300C4CC93 /* Extension */,
 			);
 			path = Internship;
+			sourceTree = "<group>";
+		};
+		74705F99259A475600C4CC93 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				74705F9A259A478500C4CC93 /* Main */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		74705F9A259A478500C4CC93 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				74705FB2259CA42300C4CC93 /* CustomCollectionViewCell */,
+				74705F9C259A480D00C4CC93 /* AvitoViewController.swift */,
+				74705F9F259A484100C4CC93 /* AvitoPresenter.swift */,
+				74705FA2259A485600C4CC93 /* AvitoInteractor.swift */,
+				74705FA5259A487100C4CC93 /* AvitoConfigurator.swift */,
+				74705FA8259A488400C4CC93 /* AvitoRouter.swift */,
+				74705FAB259A489400C4CC93 /* AvitoProtocols.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		74705FB2259CA42300C4CC93 /* CustomCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				74705FB3259CA4C600C4CC93 /* CustomCollectionViewCell.swift */,
+			);
+			path = CustomCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		74705FB6259CA71300C4CC93 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				74705FB7259CA72C00C4CC93 /* ColorExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		74705FBB259D23DE00C4CC93 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				74705FBC259D23FB00C4CC93 /* ServerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		74705FBF259D2A3600C4CC93 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				74705FC5259D302500C4CC93 /* AvitoData.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		74705FD0259F3AD200C4CC93 /* ApplicationLifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				74705F7D2598E01300C4CC93 /* AppDelegate.swift */,
+				74705F7F2598E01300C4CC93 /* SceneDelegate.swift */,
+				74705F882598E01500C4CC93 /* LaunchScreen.storyboard */,
+			);
+			path = ApplicationLifeCycle;
+			sourceTree = "<group>";
+		};
+		74705FD6259F3D0B00C4CC93 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				74705FC1259D2FBB00C4CC93 /* result.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		74705FD7259F3D1D00C4CC93 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74705F862598E01500C4CC93 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		74705FD8259F3D7100C4CC93 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				74705F8B2598E01500C4CC93 /* Info.plist */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +233,7 @@
 			files = (
 				74705F8A2598E01500C4CC93 /* LaunchScreen.storyboard in Resources */,
 				74705F872598E01500C4CC93 /* Assets.xcassets in Resources */,
-				74705F852598E01300C4CC93 /* Main.storyboard in Resources */,
+				74705FC2259D2FBB00C4CC93 /* result.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +244,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74705F822598E01300C4CC93 /* ViewController.swift in Sources */,
+				74705FA9259A488400C4CC93 /* AvitoRouter.swift in Sources */,
+				74705FB4259CA4C600C4CC93 /* CustomCollectionViewCell.swift in Sources */,
+				74705FBD259D23FB00C4CC93 /* ServerService.swift in Sources */,
+				74705FAC259A489400C4CC93 /* AvitoProtocols.swift in Sources */,
+				74705FC6259D302500C4CC93 /* AvitoData.swift in Sources */,
 				74705F7E2598E01300C4CC93 /* AppDelegate.swift in Sources */,
+				74705FA3259A485600C4CC93 /* AvitoInteractor.swift in Sources */,
+				74705FA6259A487100C4CC93 /* AvitoConfigurator.swift in Sources */,
+				74705F9D259A480D00C4CC93 /* AvitoViewController.swift in Sources */,
+				74705FA0259A484100C4CC93 /* AvitoPresenter.swift in Sources */,
+				74705FB8259CA72C00C4CC93 /* ColorExtension.swift in Sources */,
 				74705F802598E01300C4CC93 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +262,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		74705F832598E01300C4CC93 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74705F842598E01300C4CC93 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74705F882598E01500C4CC93 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +396,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NR48U86L7;
-				INFOPLIST_FILE = Internship/Info.plist;
+				INFOPLIST_FILE = Internship/Configuration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +405,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swift.Internship;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,7 +416,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NR48U86L7;
-				INFOPLIST_FILE = Internship/Info.plist;
+				INFOPLIST_FILE = Internship/Configuration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +425,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swift.Internship;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
