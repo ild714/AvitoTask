@@ -89,12 +89,12 @@
 		74705F99259A475600C4CC93 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				74705F9A259A478500C4CC93 /* Main */,
+				74705F9A259A478500C4CC93 /* Avito */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
 		};
-		74705F9A259A478500C4CC93 /* Main */ = {
+		74705F9A259A478500C4CC93 /* Avito */ = {
 			isa = PBXGroup;
 			children = (
 				74705FB2259CA42300C4CC93 /* CustomCollectionViewCell */,
@@ -105,7 +105,7 @@
 				74705FA8259A488400C4CC93 /* AvitoRouter.swift */,
 				74705FAB259A489400C4CC93 /* AvitoProtocols.swift */,
 			);
-			path = Main;
+			path = Avito;
 			sourceTree = "<group>";
 		};
 		74705FB2259CA42300C4CC93 /* CustomCollectionViewCell */ = {

@@ -9,6 +9,7 @@ import UIKit
 
 protocol CustomCollectionViewCellProtocol {
     func configure(avitoData: AvitoData, index: Int, mark: Bool)
+    func configureMark(mark: Bool)
 }
 
 class CustomCollectionViewCell: UICollectionViewCell {
@@ -116,6 +117,7 @@ class CustomCollectionViewCell: UICollectionViewCell {
     }
 }
 
+// MARK: - CustomCollectionViewCellProtocol
 extension CustomCollectionViewCell: CustomCollectionViewCellProtocol {
     func configure(avitoData: AvitoData, index: Int, mark: Bool) {
         self.labelTitle.text = avitoData.result.list[index].title

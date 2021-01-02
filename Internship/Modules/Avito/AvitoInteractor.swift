@@ -17,7 +17,7 @@ class AvitoInteractor: AvitoInteractorProtocol {
         self.presenter = presenter
     }
     
-    // MARK: - MainInteractorProtocol methods
+    // MARK: - AvitoInteractorProtocol methods
     
     var avitoData: AvitoData? {
         get {
